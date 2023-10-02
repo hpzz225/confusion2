@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+   
 }
 
 .App-logo {
@@ -35,4 +36,108 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Navigation */
+/* .navbar-bg{
+  background-color: rgb(32, 31, 31);
+  
+}
+.navbar-nav{
+  list-style: none  ;
+  text-align: left;
+  margin:0px auto;
+  display: flex;
+}
+
+.nav-item
+{
+  margin: 16px 16px;
+
+  .nav-link {
+    text-decoration: none;
+    color: azure;
+  } */
+
+  .navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .nav-item {
+    float: left;
+  }
+  
+  .nav-item .nav-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav-item .nav-link :hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #c2b800;
+  }
+
+  
+
+  /* Css for players */
+
+
+.container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border: 1px solid #ccc; 
+}
+
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  width: 400px;
+}
+
+
+.card {
+  width: 100%;
+  border: 1px solid #ccc;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  margin: 20px 15px;
+  background-color: rgb(219, 220, 221);
+}
+
+.title {
+  opacity: 0.5;
+}
+
+button {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 5px;
+}
+
+
+ .card img {
+  width: 100%; 
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.footer{
+  width: 100%;
+  padding: 10px 0;
+  background-color: #c2b800;
+  color: white;
 }
